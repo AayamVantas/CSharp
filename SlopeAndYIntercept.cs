@@ -8,6 +8,8 @@ class Program
         string input = Console.ReadLine();
         string[] parts = input.Split(",");
         double[] points = new double[parts.Length];
+        Console.Clear();
+        Console.WriteLine(input);
         for (int i = 0; i < parts.Length; i++)
         {
             points[i] = double.Parse(parts[i].Trim());
