@@ -19,6 +19,7 @@ class Program
             double yIntercept = (points[1]-slope*points[0]);
             Console.WriteLine($"Slope : {slope} \n Y-Intercept : {yIntercept}");
         }
+        getEquation();
     }
     static void Main()
     {
